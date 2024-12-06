@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpectatorController : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class SpectatorController : MonoBehaviour
     [SerializeField] private float sprintMultiplier = 2f;
     [SerializeField] private float lookSensitivity = 2f;
     [SerializeField] private KeyCode toggleKey = KeyCode.Tab;
+    [SerializeField] private Image cameraImage;
+
 
     private bool isSpectatorModeActive = false;
     private Rigidbody rb;
@@ -31,6 +34,10 @@ public class SpectatorController : MonoBehaviour
         Vector3 eulerAngles = initialRotation.eulerAngles;
         yaw = eulerAngles.y;
         pitch = eulerAngles.x;
+        if (!isSpectatorModeActive)
+            cameraImage.color = Color.red;
+        else 
+            cameraImage.color = Color.white;
     }
 
     void Update()
@@ -41,18 +48,16 @@ public class SpectatorController : MonoBehaviour
             isSpectatorModeActive = !isSpectatorModeActive;
             Cursor.lockState = isSpectatorModeActive ? CursorLockMode.Locked : CursorLockMode.None;
             Cursor.visible = !isSpectatorModeActive;
+            cameraImage.color = Color.white;
             
             //Bug found during the tests
             if (!isSpectatorModeActive)
             {
                 // Prevent spinning: lock the current rotation when exiting
-                transform.rotation = Quaternion.Euler(pitch, yaw, 0f); 
+                transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
+                cameraImage.color = Color.red;
             }
         }
-
-        if (!isSpectatorModeActive) return;
-
-        HandleRotation();
     }
 
     void FixedUpdate()
@@ -60,6 +65,11 @@ public class SpectatorController : MonoBehaviour
         if (isSpectatorModeActive)
         {
             HandleMovement();
+            HandleRotation();
+        }
+        else
+        {
+            rb.velocity = new Vector3(0, 0, 0);
         }
     }
 

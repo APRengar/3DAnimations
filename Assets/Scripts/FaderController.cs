@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,6 +8,8 @@ public class FaderController : MonoBehaviour
 
     [SerializeField] private CanvasGroup canvasGroup; // Reference to the CanvasGroup component
     [SerializeField] private float fadeDuration = 1f; // Duration of the fade effect
+
+    public float FadeDuration => fadeDuration;
     
     // UnityEvents to allow triggering fade-in and fade-out from other MonoBehaviors
     public UnityEvent OnFadeIn;
@@ -33,6 +36,9 @@ public class FaderController : MonoBehaviour
 
         if (OnFadeOut == null)
             OnFadeOut = new UnityEvent();
+
+        //Extra safety if alpha became 0 during the edeting
+        canvasGroup.alpha = 1f;
     }
     private void Start() 
     {
@@ -50,7 +56,7 @@ public class FaderController : MonoBehaviour
         StartCoroutine(Fade(1, 0)); // Fade from visible to transparent
     }
 
-    private System.Collections.IEnumerator Fade(float startAlpha, float endAlpha)
+    private IEnumerator Fade(float startAlpha, float endAlpha)
     {
         float timer = 0f;
 
@@ -67,5 +73,9 @@ public class FaderController : MonoBehaviour
             canvasGroup.interactable = canvasGroup.blocksRaycasts = false;
         else
             canvasGroup.interactable = canvasGroup.blocksRaycasts = true;
+        
+        //Huh, got a bug... otherwise buttons is transparent
+        canvasGroup.gameObject.SetActive(false);
+        canvasGroup.gameObject.SetActive(true);
     }
 }
