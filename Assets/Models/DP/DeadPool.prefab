@@ -693,7 +693,7 @@ PrefabInstance:
     - target: {fileID: -4695467229100046536, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -2537509161614439894, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: -4621639636628082898, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Hand_L
@@ -701,7 +701,7 @@ PrefabInstance:
     - target: {fileID: -4304032198143684237, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -5124462794116564265, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: -4280358997634489979, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Brace_L
@@ -709,11 +709,11 @@ PrefabInstance:
     - target: {fileID: -4116368774560002535, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4956040414243702983, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: -3776668506512163326, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 7544737632325043685, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: -3411060685557537179, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Arm_L
@@ -721,7 +721,7 @@ PrefabInstance:
     - target: {fileID: -2396286814495230129, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 728679583452585941, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: -2223683912208708170, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Brace_R
@@ -737,7 +737,7 @@ PrefabInstance:
     - target: {fileID: -1642334649591879739, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2130302618029308140, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: -1578971568979385884, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Arm_R
@@ -745,7 +745,7 @@ PrefabInstance:
     - target: {fileID: -1537326094686969329, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4542665377633911283, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: -1226675143178921626, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Head
@@ -757,7 +757,7 @@ PrefabInstance:
     - target: {fileID: 471820583273839085, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 3504416497120962250, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 919132149155446097, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: DeadPool@Idle
@@ -773,15 +773,15 @@ PrefabInstance:
     - target: {fileID: 1262466280981277858, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 8406235216568304775, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 1392429069006809684, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -2733721975636125527, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 2043114602528356805, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 3434790808203502335, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 2465154240542760203, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Neck
@@ -793,7 +793,7 @@ PrefabInstance:
     - target: {fileID: 3020767318218828294, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -703182924694717416, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 3330926039769987738, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Belt
@@ -801,7 +801,7 @@ PrefabInstance:
     - target: {fileID: 3399226857344719066, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1151571986271845773, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 3774187343386712942, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Foot_R
@@ -813,7 +813,7 @@ PrefabInstance:
     - target: {fileID: 4209847159230849431, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 84584552569812108, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 4381915476691239777, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: PouchBelt
@@ -821,15 +821,15 @@ PrefabInstance:
     - target: {fileID: 4547151569287950280, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 3340816714208316099, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 4812660261152745984, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 5630517183104872607, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 5267451975516984709, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -6605527252378014768, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 5309027862656110504, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Eye_R
@@ -841,11 +841,11 @@ PrefabInstance:
     - target: {fileID: 5795064711839294251, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 3673153935827152339, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 6864953718805624583, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 7706119513324409581, guid: 7af14e3d3515cf34dba207e5c9a1f2bb, type: 3}
+      objectReference: {fileID: 2100000, guid: 545a8186c1d8bba4cb998cd6586ccff0, type: 2}
     - target: {fileID: 7009433314590294304, guid: 8db413acce3f6cd408b254066545e32c, type: 3}
       propertyPath: m_Name
       value: Eye_L
@@ -1002,6 +1002,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &832268626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4237358931429488468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35be82e8c36af584da732aed0ee9d167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSound: {fileID: 8300000, guid: 5451ff61af36c8942b25d201f889ab80, type: 3}
+  runSound: {fileID: 8300000, guid: 5451ff61af36c8942b25d201f889ab80, type: 3}
+  jumpSound: {fileID: 8300000, guid: e8867a1ca3504ca4bb54d3c20ca871fa, type: 3}
+  audioSource: {fileID: 384143955}
 --- !u!114 &8607237443236095319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1071,22 +1087,6 @@ MonoBehaviour:
   - {fileID: 7298870863692174592}
   - {fileID: 1557163860606304173}
   - {fileID: 3439301391850943949}
---- !u!114 &832268626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4237358931429488468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35be82e8c36af584da732aed0ee9d167, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkSound: {fileID: 8300000, guid: 5451ff61af36c8942b25d201f889ab80, type: 3}
-  runSound: {fileID: 8300000, guid: 5451ff61af36c8942b25d201f889ab80, type: 3}
-  jumpSound: {fileID: 8300000, guid: e8867a1ca3504ca4bb54d3c20ca871fa, type: 3}
-  audioSource: {fileID: 384143955}
 --- !u!4 &4503115592143826041 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 608321761475470972, guid: 8db413acce3f6cd408b254066545e32c, type: 3}

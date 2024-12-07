@@ -10,6 +10,9 @@ public class SpectatorController : MonoBehaviour
     [SerializeField] private float lookSensitivity = 2f;
     [SerializeField] private KeyCode toggleKey = KeyCode.Tab;
     [SerializeField] private Image cameraImage;
+    [SerializeField] private Button spectateButton;
+
+    [SerializeField] private KeyCode unToggleKey = KeyCode.Mouse2;
 
 
     private bool isSpectatorModeActive = false;
@@ -22,6 +25,7 @@ public class SpectatorController : MonoBehaviour
 
     void Start()
     {
+        spectateButton.onClick.AddListener(SpectatButtonPressed);
         rb = GetComponent<Rigidbody>();
         //extra safety
         rb.useGravity = false;  // Disable gravity for a spectator
@@ -57,6 +61,26 @@ public class SpectatorController : MonoBehaviour
                 transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
                 cameraImage.color = Color.red;
             }
+        }
+        if (Input.GetKeyDown(unToggleKey))
+        {
+            SpectatButtonPressed();
+        }
+    }
+
+    private void SpectatButtonPressed()
+    {
+        isSpectatorModeActive = !isSpectatorModeActive;
+        Cursor.lockState = isSpectatorModeActive ? CursorLockMode.Locked : CursorLockMode.None;
+        Cursor.visible = !isSpectatorModeActive;
+        cameraImage.color = Color.white;
+        
+        //Bug found during the tests
+        if (!isSpectatorModeActive)
+        {
+            // Prevent spinning: lock the current rotation when exiting
+            transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
+            cameraImage.color = Color.red;
         }
     }
 
