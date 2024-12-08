@@ -129,7 +129,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 0dec8928d4e93f24db1b9924363587b8, type: 3}
+        m_Texture: {fileID: 2800000, guid: cfc43721dc1f76548bf28aac1055af33, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TrailWidthGradient:
